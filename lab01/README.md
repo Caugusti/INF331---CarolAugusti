@@ -23,7 +23,7 @@ Os gráficos "Scatter Plot" comparam os aplicativos pagos e grátis da categoria
 ![Tarefa 02](images/Tarefa02.png)
 
 ## Arquivo do Projeto
-> [Tarefa 02 - Google PlayStore](orange/Foodmart.ows)
+> [Tarefa 02 - Google PlayStore](orange/Google_PlayStore.ows)
 
 ## Gráfico(s) de Análise
 ![Diagrama 01](images/Diagrama01.png)
