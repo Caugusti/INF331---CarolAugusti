@@ -37,7 +37,7 @@ Os gráficos "Scatter Plot" comparam os aplicativos pagos e grátis da categoria
 ![Diagrama de Componentes - Tarefa 03](images/DiagramaComponentes-Tarefa03.png)
 
 ## Arquivo do Projeto
-> [Tarefa 03 - Pedido](orange/Aula01_Tarefa03.asta)
+> [Tarefa 03 - Recomendação](orange/Aula01_Tarefa03.asta)
 
 # Projeto de Composição de Componentes para Pedido
 
