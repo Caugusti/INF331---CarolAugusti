@@ -53,7 +53,7 @@
 
 ~~~html
 
-<dcc-trigger label="Next Item" 
+<dcc-trigger label="Proximo Item" 
              action="next/rss">
 </dcc-trigger>
 
@@ -75,7 +75,7 @@
 <dcc-lively-talk id="doctor"
                  duration="0s"
                  character="nurse"
-                 speech="News ">
+                 speech="Noticia ">
    <subscribe-dcc topic="rss/science"></subscribe-dcc>
 </dcc-lively-talk>
 
