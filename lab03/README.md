@@ -1,18 +1,28 @@
 # INF331---CarolAugusti
 
 ## Tarefa 1
-> Coloque a imagem do PRNG do seu diagrama como ilustrado abaixo:
-> 
-> ![Diagrama de Orquestração](images/Tarefa01.png)
+ 
+ ![Diagrama de Orquestração](images/Tarefa01.png)
 
 ## Tarefa 2
-> Coloque a imagem do PNG do seu diagrama como ilustrado abaixo:
->
-> ![Diagrama de Coreografia](images/coreografia.png)
->
-> Nesta tarefa não há um diagrama de atividades. O leilão é um processo que emerge da interação dos componentes. Liste a seguir qual a sequência esperada de ações que emergirá da interação como uma lista. Quando ser referir a uma mensagem, indique o tópico/interface envolvido. Exemplo:
-> 1. o componente X posta uma mensagem com o tópico Y;
-> 2. os componentes do tipo A que assinam o tópico X fazem Z e postam uma mensagem com o tópico W.
+ ![Diagrama de Coreografia](images/Tarefa02.png)
+
+> Descrição do diagrama apresentado acima.
+
+> 1. O componente "DataSet" irá gerar a lista de produtos disponíveis.
+
+> 2. O componente "SelectionProduct" irá solicitar a lista de produtos através da interface A. Ele irá filtrar pelo produto desejado para leilão, e enviá-lo através da interface Z para o barramento.
+
+> 3. O componente "Public Sale" irá aceitar apenas produtos de interesse para seu leilão, através da interface Z. 
+> Em seguida, ele irá disponibilizar o produto em questão no barramento para os sellers interessados (através da interface X).
+> E finalmente, após o encerramento dos lances, o componente irá capturar a lista dos valores leiloados no barramento, através da interface Y.
+
+> 4. O componente "Sellers" irá aceitar apenas os produtos de interesse para seus vendedores, através da interface X.
+> Após os lances terem sido realizados, o componente irá enviar a lista dos valores leiloados para o barramento (através da interface Y).
+
+> 5. O componente "Ranking" irá solicitar a lista dos valores leiloados através da interface B, e ranquear pelos três menores preços do produto. Sendo que em caso de empate, o componente irá considerar quem fez a primeira oferta.
+
+> 6. O componente "ScreenView" irá solicitar o ranking através da interface C e exibir para o usuário.
 
 ## Tarefa 3
 
