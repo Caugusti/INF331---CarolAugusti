@@ -1,4 +1,4 @@
-# INF331---CarolAugusti
+# INF331 - Lab 04
 
 ## Tarefa 1
 
@@ -28,8 +28,6 @@
 ~~~http
 Request Method: GET
 Status Code: 200  (from disk cache)
-Remote Address: [2606:4700:3034::ac43:aac4]:8443
-Referrer Policy: no-referrer-when-downgrade
 ~~~
 
 ~~~http
@@ -176,9 +174,7 @@ x-robots-tag: noindex, nofollow
 * **Cabeçalho HTTP da chamada**:
 ~~~http
 Request Method: GET
-Status Code: 200 
-Remote Address: [2606:4700:3030::6812:3dce]:8443
-Referrer Policy: no-referrer-when-downgrade
+Status Code: 200
 ~~~
 
 ~~~http
