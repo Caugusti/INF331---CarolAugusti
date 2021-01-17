@@ -1,4 +1,4 @@
-# INF331---CarolAugusti
+# INF331 - CarolAugusti
 
 # Nome
 * Caroline Augusti
